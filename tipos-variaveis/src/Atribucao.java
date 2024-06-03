@@ -52,6 +52,33 @@ public class Atribucao {
         /* Mostra o valor inverso sem atribuir um novo valor a variavel */
         System.out.println(!variavel);
 
+        /* Operadores Ternários */
+        /* Condicional ? Verdadeiro : Falso */
+        int a = 5;
+        int b = 2;
+
+        int resultadoTernario = a == b ? 2 : 1;
+        System.out.println(resultadoTernario);
+
+        /* Comparando Objetos */
+        String nomeUm = "FELIPE";
+        String nomeDois = new String("FELIPE");
+
+        System.out.println(nomeUm.equals(nomeDois));
+
+        /* Operadores Lógicos */
+        
+        boolean condicao1 = true;
+        boolean condicao2 = false;
+
+        /* E */
+        String resultadoLogico = condicao1 == true && condicao2 == true ? "verdadeiro" : "falso";
+        /* Ou */
+        String resultadoLogico2 = condicao1 == true || condicao2 == true ? "verdadeiro" : "falso";
+        
+        System.out.println(resultadoLogico);
+        System.out.println(resultadoLogico2);
+
 
 
     }
